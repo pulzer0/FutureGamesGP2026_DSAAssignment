@@ -6,8 +6,7 @@ namespace Environment
 {
     public class Computer : MonoBehaviour, IInteractable 
     {
-        [SerializeField]
-        GenericQueue<Task> QueuedTasks = new GenericQueue<Task>();
+        [SerializeField] GenericQueue<Task> QueuedTasks = new GenericQueue<Task>();
 
         public void OnInteract() 
         {
