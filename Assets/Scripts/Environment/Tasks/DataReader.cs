@@ -25,8 +25,8 @@ namespace Environment.Tasks
     public class DataReader : Task
     {
         [SerializeField] string FileName;
-        public EmployeeList PLEASEWORK;
-        public string Json;
+        public EmployeeList PLEASEWORK;     //Change the name PERHAPS
+        string Json;
         string FilePath;
 
         public override void Execute()
