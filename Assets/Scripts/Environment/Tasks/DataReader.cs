@@ -4,7 +4,6 @@ using UnityEngine;
 
 namespace Environment.Tasks
 {
-    [CreateAssetMenu(fileName = "ReadDataTask", menuName = "Read Data Task")]
 
     [Serializable]
     public class EmployeeList
@@ -22,6 +21,7 @@ namespace Environment.Tasks
         public string lastExitFromEngineRoom;
     }
 
+    [CreateAssetMenu(fileName = "ReadDataTask", menuName = "Read Data Task")]
     public class DataReader : Task
     {
         [SerializeField] string FileName;
